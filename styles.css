@@ -178,7 +178,50 @@ a {
 }
 
 .bottom-container {
-    
+    background-color: white;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.sign-up {
+    height: 100px;
+    width: 600px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text .bold {
+    font-weight: 900;
+    color: white;
+}
+
+.sign-up-text .light {
+    color: white;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 8px;
+    margin-left: 50px;
+    color: white;
+    padding: 8px;
+}
+
+.text-and-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 
