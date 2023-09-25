@@ -8,6 +8,8 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 ul {
@@ -210,11 +212,15 @@ a {
 
 .sign-up button {
     background-color: #3882F6;
+    border-style: solid;
     border-color: white;
     border-radius: 8px;
     margin-left: 50px;
     color: white;
-    padding: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .text-and-button {
@@ -223,5 +229,16 @@ a {
     justify-content: space-around;
 }
 
+footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #E5E7EB;
+}
 
