@@ -1,26 +1,95 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
-    font-family: 'Open Sans';
     background-color: white;
     display: flex;
     flex-direction: column;
 }
 
-.top-header {
+/* Decides background for all of top content container */
+
+.top-container {
     background-color: #1F2937;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
+
+/* Aligning items in nav bar insida top container */
+
+.top-container-nav {
+    margin-bottom: 100px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Styling for logo */
 
 .header-logo {
     font-size: 24px;
     color: white;
+    font-weight: 750;
+}
+
+/* Align subtext to image placeholder */
+
+.top-container-subtext {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+/* Make subtext content stack on top of eachoter */
+
+.subtext {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* Styling for title in subtext */
+
+.subtext .subtext-title {
+    color: #F9FAF8;
+    font-size: 34px;
+    font-weight: 950;
+}
+
+/* Styling for paragraph in subtext */
+
+.subtext p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 12px;
+}
+
+/* Styling for button in subtext */
+
+.subtext button {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+/* Styling for image placeholder and makes text sit in middle */
+
+.image-placeholder {
+    background-color: grey ;
+    color: white;
+    height: 220px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
@@ -32,8 +101,7 @@ li {
     list-style: none;
 }
 
-
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
