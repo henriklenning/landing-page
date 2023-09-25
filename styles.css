@@ -110,7 +110,7 @@ a {
 
 .middle-container {
     background-color: white;
-    height: 260px;
+    height: 230px;
 }
 
 /* Styling for the text in the middle container */
@@ -122,13 +122,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 /* Aligns images insied of the middle container */
 
 .images {
-    margin-top: 30px;
+    margin-top: 14px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -163,7 +163,7 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    height: 260px;
+    height: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,6 +175,10 @@ a {
     font-size: 32px;
     font-style: italic;
     color: #1F2937;
+}
+
+.bottom-container {
+    
 }
 
 
