@@ -106,10 +106,14 @@ a {
     justify-content: center;
 }
 
+/* Decides background color and height for middle container */
+
 .middle-container {
     background-color: white;
     height: 260px;
 }
+
+/* Styling for the text in the middle container */
 
 .middle-container-top-text {
     color: #1F2937;
@@ -121,12 +125,16 @@ a {
     margin-top: 20px;
 }
 
+/* Aligns images insied of the middle container */
+
 .images {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* Adds borders to image containers */
 
 .image-border {
     border-style: solid;
@@ -136,16 +144,22 @@ a {
     width: 100px;
 }
 
+/* Places image text underneath images */
+
 .image-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Some tweaking to text position */
+
 .image-text p {
     margin-top: 6px;
     width: 100px;
 }
+
+/* Decides where the quote will sit inside of the "quote" container */
 
 .quote {
     background-color: #E5E7EB;
@@ -154,6 +168,8 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+/* Styling for quote text */
 
 .quote-text {
     font-size: 32px;
